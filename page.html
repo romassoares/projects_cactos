@@ -49,8 +49,9 @@
             <a href="#" aria-label="Product" class="navbar-brand m-2">
                 <img src="./imgs/cactos-icon.ico" width="30" height="32" class="d-inline-block" alt="">
             </a>
-            <a class="text-white nav-link" href="https://cactoslab.cactoscoders.com.br/"
-                target="_blank">CactosCoders</a>
+            <a class="text-white nav-link" href="https://cactoslab.cactoscoders.com.br/" target="_blank">CactosCoders
+            </a>
+            <a href="http://"></a>
         </nav>
     </header>
 
@@ -119,16 +120,16 @@
 
             const diretory = document.createElement('img')
             diretory.src = "./imgs/telas-cactoslab/" + index + ".PNG"
-            diretory.setAttribute('class', 'm-2 w-100')
+            diretory.setAttribute('class', 'm-1 w-100')
             diretory.setAttribute('width', '100%')
 
             const divImg = document.createElement('div')
-            divImg.setAttribute('class', 'm-5')
+            divImg.setAttribute('class', 'm-1')
             divImg.setAttribute('id', index)
 
-            const button = document.createElement('button')
+            const button = document.createElement('a')
             button.setAttribute('href', '#' + (1 + index))
-            button.setAttribute("class", 'btn btn-secondary')
+            button.setAttribute("class", 'btn btn-secondary mt-1')
             button.innerText = "Próximo"
 
             divImg.appendChild(diretory)
